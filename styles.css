@@ -1,8 +1,10 @@
-p{
-    color:red;
-    background-color: plum; 
+.menu-item{
+    position: relative;;
 }
-
-#title{
-    color:rgb(114, 16, 205);
+.sub-menu{
+    display: none;
+    position: absolute;
+}
+.menu-item:hover .sub-menu{
+    display: block;
 }
